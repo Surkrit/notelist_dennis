@@ -12,8 +12,25 @@
         <h1>Noties</h1>
       </header>
       <ul></ul>
-      <button>+</button>
+      <button id="showModal">+</button>
     </div>
+
+    <div class="modal-bg">
+      <div class="modal">
+        <input type="text" id="noteText">
+        <input type="datetime-local" id="noteTime">
+        <input type="checkbox" id="noteImportant"> Important
+        <button id="addNote">Add</button>
+      </div>
+    </div>
+
+    <div class="modal-bg">
+      <div class="modal">
+        <input type="text" id="noteEdtText">
+        <button id="edtNote">Edit</button>
+      </div>
+    </div>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
